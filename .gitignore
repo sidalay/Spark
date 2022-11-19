@@ -1,0 +1,56 @@
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+test/cmake-build-debug/compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# JetBrains
+.idea/
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# Binaries
+*.d
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# Build directories
+cmake-build-*/
+/test/build/
+build/
+Debug/
+test/Debug/
+Release/
+test/Release/
+
+# Tooling
+compile_commands.json
+.clangd/
+.cache/
+.gdb_history
+
+# VSCode
+.vscode
+.code-workspace
