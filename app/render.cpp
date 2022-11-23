@@ -1,7 +1,7 @@
-#include "render.hpp"
 #include "imgui.h"
 #include "imgui_demo.cpp"
-#include <iostream>
+
+#include "render.hpp"
 
 void render() {
     ImGui::ShowDemoWindow();

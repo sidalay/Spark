@@ -2,7 +2,7 @@
 
 #include <cstdint>
 
-constexpr auto WINDOW_WIDTH = std::uint32_t{1280};
-constexpr auto WINDOW_HEIGHT = std::uint32_t{720};
+constexpr std::int32_t WindowWidth{1280};
+constexpr std::int32_t WindowHeight{720};
 
 void render();
